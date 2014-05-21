@@ -1,8 +1,11 @@
-p {
+/* Blog CSS */
+body, p, ul {
 	font-family: "freight-text-pro", serif;
 	font-size: 1.5em;
 	line-height: 1.5em;
 	font-weight: 400;
+	margin-top: 1.304347826em;
+	margin-bottom: 1.304347826em;
 }
 
 h1, h2, h3 {
@@ -10,6 +13,59 @@ h1, h2, h3 {
 	font-weight: 600;
 }
 
+blockquote {
+	font-size: inherit;
+	padding-top: inherit;
+	color: rgba(0, 0, 0, 0.75);
+}
+
 h1 {
 	font-size: 3.29em;
 }
+
+h1 {
+	font-size: 2.530769231em;
+}
+
+article {
+	margin: auto;
+	color: rgba(0, 0, 0, 0.9);
+}
+
+@media (min-width: 680px) {
+	article {
+		width: 640px;
+	}
+}
+
+/* Home Screen CSS */
+.home {
+  background: url(/sean.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body, .home {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.fade-in {
+  -webkit-animation: fadeIn 1.2s .5s forwards;
+     -moz-animation: fadeIn 1.2s .5s forwards;
+       -o-animation: fadeIn 1.2s .5s forwards;
+          animation: fadeIn 1.2s .5s forwards;
+}
+
+@-webkit-keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+   @-moz-keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+     @-o-keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+        @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
