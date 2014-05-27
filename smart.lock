@@ -4,7 +4,8 @@
     "basePackages": {
       "iron-router": {},
       "bootstrap-3": {},
-      "iron-router-ga": {}
+      "iron-router-ga": {},
+      "iron-router-progress": {}
     },
     "packages": {
       "iron-router": {
@@ -19,8 +20,13 @@
       },
       "iron-router-ga": {
         "git": "https://github.com/reywood/meteor-iron-router-ga.git",
-        "tag": "v0.1.3",
-        "commit": "8a3bdc667ee43e6cf784555c131d2034f663e807"
+        "tag": "v0.1.4",
+        "commit": "033f5d0fda794ac913beb4ce0d30e8d36c253b5a"
+      },
+      "iron-router-progress": {
+        "git": "https://github.com/Multiply/iron-router-progress.git",
+        "tag": "v0.4.0",
+        "commit": "02f78bdaca4c13d59f548d5a0ce83408c34b56d1"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

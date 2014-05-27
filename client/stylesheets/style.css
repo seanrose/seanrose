@@ -1,3 +1,13 @@
+/* Application CSS */
+#iron-router-progress {
+    background-color: #428bca;
+    box-shadow: 0 0 5px #428bca;
+}
+
+#iron-router-progress.spinner:before {
+    border-color : #428bca;
+}
+
 /* Blog CSS */
 body, p, ul {
 	font-family: "freight-text-pro", serif;
@@ -59,10 +69,10 @@ html, body, .home {
 }
 
 .fade-in {
-  -webkit-animation: fadeIn 1.2s .5s forwards;
-     -moz-animation: fadeIn 1.2s .5s forwards;
-       -o-animation: fadeIn 1.2s .5s forwards;
-          animation: fadeIn 1.2s .5s forwards;
+  -webkit-animation: fadeIn 1.2s .3s forwards;
+     -moz-animation: fadeIn 1.2s .3s forwards;
+       -o-animation: fadeIn 1.2s .3s forwards;
+          animation: fadeIn 1.2s .3s forwards;
 }
 
 @-webkit-keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
