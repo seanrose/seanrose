@@ -28,14 +28,6 @@ blockquote {
 	color: rgba(0, 0, 0, 0.75);
 }
 
-h1 {
-	font-size: 3.29em;
-}
-
-h1 {
-	font-size: 2.530769231em;
-}
-
 article {
 	margin: auto;
 	color: rgba(0, 0, 0, 0.9);
@@ -46,6 +38,14 @@ article {
 		font-size: 1.5em;
 	}
 
+	h1 {
+		font-size: 3.29em;
+	}
+
+	h2 {
+		font-size: 2.530769231em;
+	}
+
 	article {
 		width: 640px;
 	}
@@ -53,7 +53,15 @@ article {
 
 @media (max-width: 679px) {
 	body, p, ul {
-		font-size: 1.35em;
+		font-size: 1.43em;
+	}
+
+	h1 {
+		font-size: 3.136466666em;
+	}
+
+	h2 {
+		font-size: 2.412666666em;
 	}
 }
 
