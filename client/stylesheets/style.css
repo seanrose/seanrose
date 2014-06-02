@@ -11,7 +11,6 @@
 /* Blog CSS */
 body, p, ul {
 	font-family: "freight-text-pro", serif;
-	font-size: 1.5em;
 	line-height: 1.5em;
 	font-weight: 400;
 	margin-top: 1.304347826em;
@@ -43,8 +42,18 @@ article {
 }
 
 @media (min-width: 680px) {
+	body, p, ul {
+		font-size: 1.5em;
+	}
+
 	article {
 		width: 640px;
+	}
+}
+
+@media (max-width: 679px) {
+	body, p, ul {
+		font-size: 1.35em;
 	}
 }
 
