@@ -13,15 +13,12 @@ function randomFrom(min, max) {
 function randomizeColor($template) {
 	var randomColors = colors[randomFrom(0, colors.length - 1)];
 
-	$template('.col-xs-2').each(function(i) {
+	$template('.color-space').each(function(i) {
 		$(this).css('background-color', randomColors[i]);
+		$(this).delay('slow').fadeIn(700 * i);
 	});
 }
 
 Template.colors.rendered = function () {
 	randomizeColor(this.$);
-
-	Meteor.setInterval(function() {
-		randomizeColor(this.$);
-	}, 5000);
 };
