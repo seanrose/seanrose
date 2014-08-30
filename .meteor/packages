@@ -7,4 +7,5 @@ standard-app-packages
 mrt:iron-router-progress@0.4.1
 mizzao:bootstrap-3
 iron:router
+meteorhacks:fast-render
 

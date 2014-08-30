@@ -4,4 +4,22 @@
 
 .color-space {
 	display: none;
+    margin-top: -20px;
+}
+
+.bleed {
+    opacity: .9;
+}
+
+.bleed h2 {
+    padding-top: .75em;
+
+}
+
+.bleed a {
+    color: rgba(51, 51, 51, .9);
+}
+
+.bleed a:hover {
+    color: rgba(51, 51, 51, .8);
 }
