@@ -5,7 +5,7 @@ var colors = [
 	['#E9E7EC', '#F8DEDD', '#FACC74', '#FD8C6A', '#D14747', '#B6D4A2'],
 	['#FDC680', '#D9654C', '#6195A0', '#C9C9C9', '#422F21', '#68275D'],
 	['#F8E8AF', '#F16766', '#D3003F', '#CDE58F', '#3C1452', '#4E6B4E'],
-	['#F0E0E3', '#EEB8C9', '#D55395', '#952E4B', '#81675C', '#D4E4AF']
+	['#F0E0E3', '#EEB8C9', '#D55395', '#D4E4AF', '#952E4B', '#81675C']
 ];
 
 function randomFrom(min, max) {
