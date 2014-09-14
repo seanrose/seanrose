@@ -14,8 +14,8 @@ function randomizeColor() {
 	var randomColors = colors[randomFrom(0, colors.length - 1)];
 
 	$('.color-space').each(function(i) {
-		var delay = 900;
-		$(this).css('background-color', randomColors[i]).delay('slow').fadeIn(delay * i);
+		var delay = 500;
+		$(this).css('background-color', randomColors[i]).delay(delay * i).fadeIn('slow');
 	});
 }
 
