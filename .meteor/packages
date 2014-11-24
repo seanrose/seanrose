@@ -4,9 +4,9 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-mrt:iron-router-progress@0.4.1
 mizzao:bootstrap-3
 iron:router
 meteorhacks:fast-render
 datariot:ganalytics
+multiply:iron-router-progress
 
