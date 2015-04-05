@@ -8,17 +8,17 @@
     border-color : #428bca;
 }
 
+
+
 /* Blog CSS */
 body, p, ul {
-	font-family: "freight-text-pro", serif;
+	font-family: 'Lora', serif;
 	line-height: 1.5em;
 	font-weight: 400;
-	/*margin-top: 1.304347826em;*/
-	/*margin-bottom: 1.304347826em;*/
 }
 
 h1, h2, h3 {
-	font-family: "myriad-pro", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 }
 
@@ -96,3 +96,5 @@ html, body, .home {
    @-moz-keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
      @-o-keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
         @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+
+
